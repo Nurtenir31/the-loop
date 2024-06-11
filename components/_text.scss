@@ -1,0 +1,19 @@
+.text {
+	background: #000;
+	&__content {
+		h4 {
+			padding-top: 80px;
+			color: #fff;
+			font-size: 30px;
+			line-height: 36.57px;
+			text-align: center;
+		}
+		p {
+			color: #fff;
+			font-size: 21px;
+			line-height: 25.6px;
+			text-align: center;
+			padding-bottom: 70px;
+		}
+	}
+}
