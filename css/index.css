@@ -59,4 +59,50 @@ button {
 }
 .header__links__icons button {
   padding-left: 30px;
+}
+
+.price {
+  margin-top: 138px;
+}
+
+.price__content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.price__content h3 {
+  font-size: 30px;
+  line-height: 36.57px;
+}
+.price__content h1 {
+  margin-top: 35px;
+  font-size: 55px;
+  line-height: 67.05px;
+}
+.price__content button {
+  margin-top: 55px;
+  font-size: 16px;
+  line-height: 19.5px;
+  color: #fff;
+  background: #d7b399;
+  padding: 17px 29px;
+}
+.price__content .price__shoes {
+  position: relative;
+}
+.price__content .price__shoes .price__cash {
+  position: absolute;
+  top: 40px;
+  right: 0;
+  text-align: right;
+}
+.price__content .price__shoes .price__cash p {
+  font-size: 24px;
+  line-height: 29.26px;
+  color: #000000;
+}
+.price__content .price__shoes .price__cash span {
+  font-size: 42px;
+  line-height: 51.2px;
+  color: #d84033;
 }/*# sourceMappingURL=index.css.map */
