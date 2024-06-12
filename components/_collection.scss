@@ -4,7 +4,7 @@
 	justify-content: center;
 	.collection__mens {
 		text-align: left;
-		padding: 60px 35px;
+		padding: 60px 35px 0px;
 		display: flex;
 		background: #f9f6f1;
 		&__text {
@@ -24,7 +24,7 @@
 	}
 	.collection__womens {
 		text-align: left;
-		padding: 60px 35px;
+		padding: 60px 35px 0px;
 		display: flex;
 		background: #f4f4f4;
 		&__text {

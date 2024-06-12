@@ -1,0 +1,18 @@
+.catalog__content {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.catalog__photo {
+	position: relative;
+	img {
+		width: 275px;
+		height: 236px;
+	}
+	p {
+		position: absolute;
+		bottom: 24px;
+		left: 32px;
+		font-size: 21px;
+		line-height: 25.6px;
+	}
+}

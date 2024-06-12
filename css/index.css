@@ -136,7 +136,7 @@ button {
 }
 .collection__content .collection__mens {
   text-align: left;
-  padding: 60px 35px;
+  padding: 60px 35px 0px;
   display: flex;
   background: #f9f6f1;
 }
@@ -154,7 +154,7 @@ button {
 }
 .collection__content .collection__womens {
   text-align: left;
-  padding: 60px 35px;
+  padding: 60px 35px 0px;
   display: flex;
   background: #f4f4f4;
 }
@@ -169,4 +169,24 @@ button {
 .collection__content .collection__womens button {
   background: #d7b399;
   padding: 15px 30px;
+}
+
+.catalog__content {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.catalog__photo {
+  position: relative;
+}
+.catalog__photo img {
+  width: 275px;
+  height: 236px;
+}
+.catalog__photo p {
+  position: absolute;
+  bottom: 24px;
+  left: 32px;
+  font-size: 21px;
+  line-height: 25.6px;
 }/*# sourceMappingURL=index.css.map */
