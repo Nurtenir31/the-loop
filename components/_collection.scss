@@ -1,0 +1,45 @@
+.collection__content {
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	.collection__mens {
+		text-align: left;
+		padding: 60px 35px;
+		display: flex;
+		background: #f9f6f1;
+		&__text {
+			h4 {
+				font-size: 24px;
+				line-height: 29.26px;
+			}
+			p {
+				font-size: 16px;
+				line-height: 19.5px;
+			}
+		}
+		button {
+			background: #d7b399;
+			padding: 15px 30px;
+		}
+	}
+	.collection__womens {
+		text-align: left;
+		padding: 60px 35px;
+		display: flex;
+		background: #f4f4f4;
+		&__text {
+			h4 {
+				font-size: 24px;
+				line-height: 29.26px;
+			}
+			p {
+				font-size: 16px;
+				line-height: 19.5px;
+			}
+		}
+		button {
+			background: #d7b399;
+			padding: 15px 30px;
+		}
+	}
+}

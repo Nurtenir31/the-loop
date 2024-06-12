@@ -15,7 +15,9 @@ h6 {
 }
 
 ul[class],
-ol[class] {
+ol[class],
+ul,
+ol {
   padding: 0;
   list-style-type: none;
 }
@@ -124,4 +126,47 @@ button {
   line-height: 25.6px;
   text-align: center;
   padding-bottom: 70px;
+  margin: 0;
+}
+
+.collection__content {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+.collection__content .collection__mens {
+  text-align: left;
+  padding: 60px 35px;
+  display: flex;
+  background: #f9f6f1;
+}
+.collection__content .collection__mens__text h4 {
+  font-size: 24px;
+  line-height: 29.26px;
+}
+.collection__content .collection__mens__text p {
+  font-size: 16px;
+  line-height: 19.5px;
+}
+.collection__content .collection__mens button {
+  background: #d7b399;
+  padding: 15px 30px;
+}
+.collection__content .collection__womens {
+  text-align: left;
+  padding: 60px 35px;
+  display: flex;
+  background: #f4f4f4;
+}
+.collection__content .collection__womens__text h4 {
+  font-size: 24px;
+  line-height: 29.26px;
+}
+.collection__content .collection__womens__text p {
+  font-size: 16px;
+  line-height: 19.5px;
+}
+.collection__content .collection__womens button {
+  background: #d7b399;
+  padding: 15px 30px;
 }/*# sourceMappingURL=index.css.map */
