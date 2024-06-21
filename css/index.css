@@ -171,6 +171,10 @@ button {
   padding: 15px 30px;
 }
 
+.catalog {
+  margin-bottom: 150px;
+}
+
 .catalog__content {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -189,4 +193,32 @@ button {
   left: 32px;
   font-size: 21px;
   line-height: 25.6px;
+}
+
+.models__content {
+  text-align: center;
+}
+.models__content h2 {
+  margin-bottom: 100px;
+  font-size: 36px;
+  line-height: 43.88px;
+  letter-spacing: 0.04em;
+  text-align: center;
+}
+.models__content .models__img {
+  margin-bottom: 103px;
+  text-align: center;
+  gap: 30px;
+}
+.models__content button {
+  display: flex;
+  align-items: center;
+  background: #d7b399;
+}
+.models__content button p {
+  font-size: 16px;
+  line-height: 19.5px;
+  letter-spacing: 0.03em;
+  color: #fff;
+  padding: 18px 25px;
 }/*# sourceMappingURL=index.css.map */

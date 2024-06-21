@@ -1,0 +1,27 @@
+.models__content {
+	text-align: center;
+	h2 {
+		margin-bottom: 100px;
+		font-size: 36px;
+		line-height: 43.88px;
+		letter-spacing: 0.04em;
+		text-align: center;
+	}
+	.models__img {
+		margin-bottom: 103px;
+		text-align: center;
+		gap: 30px;
+	}
+	button {
+		display: flex;
+		align-items: center;
+		background: #d7b399;
+		p {
+			font-size: 16px;
+			line-height: 19.5px;
+			letter-spacing: 0.03em;
+			color: #fff;
+			padding: 18px 25px;
+		}
+	}
+}
